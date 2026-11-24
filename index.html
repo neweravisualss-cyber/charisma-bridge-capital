@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Charisma Bridge Capital | Fast Loans, Real People</title>
+
+  <!-- Website Logo / Favicon -->
+  <link rel="icon" type="image/jpg" href="assets/images/logo.jpeg">
+  <link rel="apple-touch-icon" href="assets/images/logo.jpeg">
+
+  <!-- SEO -->
+  <meta name="description" content="Charisma Bridge Capital provides accessible business and personal financing solutions in Zimbabwe. Contact us today to enquire.">
+  <meta name="keywords" content="Charisma Bridge Capital, business loans, SME loans, personal loans, Zimbabwe finance">
+  <meta name="author" content="Charisma Bridge Capital">
+
+  <!-- Social Sharing -->
+  <meta property="og:title" content="Charisma Bridge Capital">
+  <meta property="og:description" content="Fast Loans, Real People. Explore financing solutions with Charisma Bridge Capital.">
+  <meta property="og:image" content="assets/images/logo.jpeg">
+  <meta property="og:type" content="website">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="container nav-content">
+
+      <a href="#home" class="brand">
+        <img
+          src="assets/images/logo.jpeg"
+          alt="Charisma Bridge Capital Logo"
+          class="brand-logo"
+          width="42"
+          height="42"
+        >
+
+        <div class="brand-text">
+          <span class="brand-name">Charisma Bridge Capital</span>
+          <span class="brand-tag">Powering Local Business</span>
+        </div>
+      </a>
+
+      <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+        <a href="#how-it-works">How It Works</a>
+        <a href="#loans">Loan Types</a>
+        <a href="#testimonials">About Us</a>
+        <a href="#faq">FAQ</a>
+        <a href="#apply" class="btn btn-primary btn-sm">Apply Now</a>
+      </nav>
+
+      <button
+        type="button"
+        class="menu-toggle"
+        id="menuToggle"
+        aria-label="Toggle navigation"
+        aria-expanded="false"
+      >
+        &#9776;
+      </button>
+
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+
+      <div class="hero-glow" aria-hidden="true"></div>
+
+      <div class="container hero-grid">
+
+        <div class="hero-copy">
+
+          <span class="pill-badge">
+            &#9889; Flexible Financing &bull; Real People &bull; Local Support
+          </span>
+
+          <h1>
+            Fast Loans, Real People,
+            <span class="text-accent">No Stress.</span>
+          </h1>
+
+          <p>
+            Empowering Zimbabwe's market vendors, small businesses,
+            and salaried professionals with financing solutions
+            designed around their needs.
+          </p>
+
+          <div class="hero-actions">
+
+            <a href="#apply" class="btn btn-primary btn-lg">
+              Apply Now
+            </a>
+
+            <a
+              href="https://wa.me/263774936425?text=Hello%20Charisma%20Bridge%20Capital%2C%20I%20would%20like%20to%20enquire%20about%20a%20loan."
+              class="btn btn-whatsapp btn-lg"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M12.03 2c-5.52 0-10 4.48-10 10 0 1.76.46 3.48 1.34 5L2 22l5.15-1.35c1.47.8 3.13 1.22 4.88 1.22 5.52 0 10-4.48 10-10s-4.48-9.87-10-9.87zm5.83 14.12c-.24.68-1.41 1.3-1.96 1.38-.52.08-1.18.11-1.9-.12-.44-.14-1-.33-1.72-.64-3.03-1.31-5.01-4.37-5.16-4.57-.15-.2-1.23-1.64-1.23-3.13 0-1.49.78-2.22 1.06-2.52.28-.3.61-.38.81-.38.2 0 .41 0 .58.01.19.01.44-.07.69.53.25.61.86 2.1.93 2.25.08.15.13.33.03.53-.1.2-.15.33-.3.5-.15.18-.32.39-.45.53-.15.15-.31.31-.13.61.18.3.78 1.29 1.68 2.09 1.16 1.03 2.13 1.35 2.43 1.5.3.15.48.13.66-.08.18-.2.76-.88.96-1.18.2-.3.4-.25.68-.15.28.1 1.77.83 2.07.98.3.15.5.23.58.35.07.13.07.73-.17 1.41z"/>
+              </svg>
+              Chat on WhatsApp
+            </a>
+
+          </div>
+
+          <div class="trust-bar">
+
+            <div class="trust-item">
+              <strong>Business</strong>
+              <span>Financing Solutions</span>
+            </div>
+
+            <div class="trust-item">
+              <strong>Flexible</strong>
+              <span>Repayment Discussions</span>
+            </div>
+
+            <div class="trust-item">
+              <strong>Harare</strong>
+              <span>Clyde Shopping Centre</span>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Loan Calculator -->
+        <div class="calc-card">
+
+          <div class="calc-header">
+            <span class="calc-badge">Quick Estimator</span>
+            <h3>Plan Your Business Boost</h3>
+          </div>
+
+          <div class="calc-control">
+
+            <div class="calc-label-row">
+              <label for="amountSlider">How much do you need?</label>
+              <span class="calc-value" id="sliderDisplay">$250 USD</span>
+            </div>
+
+            <input
+              type="range"
+              id="amountSlider"
+              min="50"
+              max="2000"
+              step="50"
+              value="250"
+            >
+
+            <div class="range-limits">
+              <span>$50</span>
+              <span>$1,000</span>
+              <span>$2,000</span>
+            </div>
+
+          </div>
+
+          <div class="calc-control">
+
+            <span class="calc-sublabel">Preferred Repayment Schedule</span>
+
+            <div class="period-pills">
+
+              <button type="button" class="period-btn active" data-weeks="4">
+                4 Weeks
+              </button>
+
+              <button type="button" class="period-btn" data-weeks="8">
+                8 Weeks
+              </button>
+
+              <button type="button" class="period-btn" data-weeks="12">
+                12 Weeks
+              </button>
+
+            </div>
+
+          </div>
+
+          <div class="calc-summary">
+
+            <div>
+              <span>Estimated Weekly Guide</span>
+              <strong id="weeklyEstimate">$71.25 / wk</strong>
+            </div>
+
+            <small>
+              Indicative estimate only. Actual loan amounts, interest,
+              fees and repayment terms must be confirmed by the company.
+            </small>
+
+          </div>
+
+          <a href="#apply" id="useEstimateBtn" class="btn btn-primary btn-block">
+            Request This Amount &rarr;
+          </a>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how-it-works" class="section bg-light">
+
+      <div class="container">
+
+        <div class="section-header">
+          <span class="eyebrow">Simple Process</span>
+          <h2>How It Works</h2>
+          <p>
+            Start an enquiry and let our team guide you through
+            the financing application process.
+          </p>
+        </div>
+
+        <div class="steps-grid">
+
+          <div class="step-card">
+            <div class="step-icon">01</div>
+            <h3>Make an Enquiry</h3>
+            <p>
+              Complete the online enquiry form or contact our team
+              directly through WhatsApp.
+            </p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-icon">02</div>
+            <h3>Application Review</h3>
+            <p>
+              Our team can discuss your requirements and explain
+              the available financing terms.
+            </p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-icon">03</div>
+            <h3>Next Steps</h3>
+            <p>
+              If your application meets the requirements, our team
+              will explain the next steps and applicable conditions.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Loan Products -->
+    <section id="loans" class="section">
+
+      <div class="container">
+
+        <div class="section-header">
+          <span class="eyebrow">Financing Solutions</span>
+          <h2>Loan Products Built for Zimbabwe</h2>
+          <p>
+            Explore the financing categories below and select
+            the option that best describes your needs.
+          </p>
+        </div>
+
+        <!-- Loan Tabs -->
+        <div class="tabs">
+
+          <button
+            type="button"
+            class="tab-btn active"
+            data-tab="vendor-loans"
+          >
+            Small Business &amp; Vendor Loans
+          </button>
+
+          <button
+            type="button"
+            class="tab-btn"
+            data-tab="personal-loans"
+          >
+            Personal, SSB &amp; Asset Finance
+          </button>
+
+        </div>
+
+        <!-- Business Loans -->
+        <div class="tab-content active" id="vendor-loans">
+
+          <div class="cards-grid">
+
+            <!-- Fruits and Vegetables -->
+            <div class="loan-card">
+
+              <div>
+                <img
+                  src="assets/images/fruits-vegetables.jpg"
+                  alt="Fresh fruits and vegetables for market traders"
+                  class="loan-image"
+                  loading="lazy"
+                >
+
+                <div class="card-top">
+                  <span class="card-icon">&#127813;</span>
+                  <span class="card-tag">Business Finance</span>
+                </div>
+
+                <h3>Fruits &amp; Vegetables Loan</h3>
+
+                <p>
+                  Financing enquiries for market and produce vendors
+                  looking to purchase stock and grow their businesses.
+                </p>
+              </div>
+
+              <a href="#apply" class="card-link" data-loan="Fruits & Vegetables Loan">
+                Apply for this loan <span>&rarr;</span>
+              </a>
+
+            </div>
+
+            <!-- Clothing and Textiles -->
+            <div class="loan-card">
+
+              <div>
+                <img
+                  src="assets/images/clothing-textiles.jpg"
+                  alt="Clothing and textile merchandise"
+                  class="loan-image"
+                  loading="lazy"
+                >
+
+                <div class="card-top">
+                  <span class="card-icon">&#128085;</span>
+                  <span class="card-tag">Business Finance</span>
+                </div>
+
+                <h3>Clothing &amp; Textiles (Mabhero)</h3>
+
+                <p>
+                  Financing enquiries for clothing traders and
+                  apparel businesses looking to expand their stock.
+                </p>
+              </div>
+
+              <a href="#apply" class="card-link" data-loan="Clothing & Textiles (Mabhero) Loan">
+                Apply for this loan <span>&rarr;</span>
+              </a>
+
+            </div>
+
+            <!-- Traditional Grains -->
+            <div class="loan-card">
+
+              <div>
+                <img
+                  src="assets/images/traditional-grains.jpg"
+                  alt="Traditional grains and maize"
+                  class="loan-image"
+                  loading="lazy"
+                >
+
+                <div class="card-top">
+                  <span class="card-icon">&#127806;</span>
+                  <span class="card-tag">Business Finance</span>
+                </div>
+
+                <h3>Traditional Grains Loan</h3>
+
+                <p>
+                  Supporting traders dealing in Mapfunde, Zviyo,
+                  Mhunga, maize and other traditional grains.
+                </p>
+              </div>
+
+              <a href="#apply" class="card-link" data-loan="Traditional Grains Loan">
+                Apply for this loan <span>&rarr;</span>
+              </a>
+
+            </div>
+
+            <!-- Baking Business -->
+            <div class="loan-card">
+
+              <div>
+                <img
+                  src="assets/images/baking-business.jpg"
+                  alt="Baked goods for a small baking business"
+                  class="loan-image"
+                  loading="lazy"
+                >
+
+                <div class="card-top">
+                  <span class="card-icon">&#127838;</span>
+                  <span class="card-tag">Business Finance</span>
+                </div>
+
+                <h3>Baking Business Loan</h3>
+
+                <p>
+                  Financing enquiries for local bakers producing
+                  bread, buns, cakes, scones and other baked goods.
+                </p>
+              </div>
+
+              <a href="#apply" class="card-link" data-loan="Baking Business Loan">
+                Apply for this loan <span>&rarr;</span>
+              </a>
+
+            </div>
+
+            <!-- Canteen Business -->
+            <div class="loan-card">
+
+              <div>
+                <img
+                  src="assets/images/canteen-business.jpg"
+                  alt="Food and meals prepared by a canteen business"
+                  class="loan-image"
+                  loading="lazy"
+                >
+
+                <div class="card-top">
+                  <span class="card-icon">&#127858;</span>
+                  <span class="card-tag">Food Businesses</span>
+                </div>
+
+                <h3>Canteen Business Loan</h3>
+
+                <p>
+                  Financing enquiries for canteen owners and food
+                  vendors serving traditional daily meals.
+                </p>
+              </div>
+
+              <a href="#apply" class="card-link" data-loan="Canteen Business Loan">
+                Apply for this loan <span>&rarr;</span>
+              </a>
+
+            </div>
+
+            <!-- Cosmetics Business -->
+            <div class="loan-card">
+
+              <div>
+                <img
+                  src="assets/images/cosmetics-business.jpg"
+                  alt="Cosmetics and beauty products"
+                  class="loan-image"
+                  loading="lazy"
+                >
+
+                <div class="card-top">
+                  <span class="card-icon">&#128132;</span>
+                  <span class="card-tag">Retail Business</span>
+                </div>
+
+                <h3>Cosmetics Business Loan</h3>
+
+                <p>
+                  Financing enquiries for cosmetics retailers
+                  selling makeup, lotions, hair products and perfumes.
+                </p>
+              </div>
+
+              <a href="#apply" class="card-link" data-loan="Cosmetics Business Loan">
+                Apply for this loan <span>&rarr;</span>
+              </a>
+
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Personal and Other Loans -->
+        <div class="tab-content" id="personal-loans">
+
+          <div class="cards-grid">
+
+            <div class="loan-card">
+              <div>
+                <div class="card-top">
+                  <span class="card-icon">&#128100;</span>
+                  <span class="card-tag">Personal Finance</span>
+                </div>
+
+                <h3>Personal Loans</h3>
+
+                <p>
+                  Make an enquiry about personal financing
+                  for your individual financial needs.
+                </p>
+              </div>
+
+              <a href="#apply" class="card-link" data-loan="Personal Loan">
+                Apply for this loan <span>&rarr;</span>
+              </a>
+            </div>
+
+            <div class="loan-card">
+              <div>
+                <div class="card-top">
+                  <span class="card-icon">&#128188;</span>
+                  <span class="card-tag">Salary Based</span>
+                </div>
+
+                <h3>SSB Loans</h3>
+
+                <p>
+                  Enquire about financing options for eligible
+                  individuals receiving salaries through SSB.
+                </p>
+              </div>
+
+              <a href="#apply" class="card-link" data-loan="SSB Loan">
+                Apply for this loan <span>&rarr;</span>
+              </a>
+            </div>
+
+            <div class="loan-card">
+              <div>
+                <div class="card-top">
+                  <span class="card-icon">&#128663;</span>
+                  <span class="card-tag">Asset Finance</span>
+                </div>
+
+                <h3>Asset Finance</h3>
+
+                <p>
+                  Enquire about financing for qualifying assets
+                  and equipment to support your needs.
+                </p>
+              </div>
+
+              <a href="#apply" class="card-link" data-loan="Asset Finance">
+                Apply for this loan <span>&rarr;</span>
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- About / Our Approach -->
+    <section id="testimonials" class="section bg-light">
+
+      <div class="container">
+
+        <div class="section-header">
+          <span class="eyebrow">Charisma Bridge Capital</span>
+          <h2>Financing Conversations That Start With You</h2>
+          <p>
+            We aim to make it easier for individuals and local
+            businesses to enquire about financing and understand
+            the options available to them.
+          </p>
+        </div>
+
+        <div class="steps-grid">
+
+          <div class="step-card">
+            <div class="step-icon">&#128172;</div>
+            <h3>Personal Support</h3>
+            <p>
+              Speak to our team about your financing enquiry
+              and the requirements for your application.
+            </p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-icon">&#127919;</div>
+            <h3>Business Focus</h3>
+            <p>
+              Explore financing categories designed for
+              different types of small businesses and traders.
+            </p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-icon">&#128176;</div>
+            <h3>Clear Discussions</h3>
+            <p>
+              Ask questions about applicable fees, interest,
+              repayment periods and eligibility before proceeding.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section">
+
+      <div class="container faq-container">
+
+        <div class="section-header">
+          <span class="eyebrow">Need Answers?</span>
+          <h2>Frequently Asked Questions</h2>
+          <p>
+            Here are some useful things to know before making
+            a financing enquiry.
+          </p>
+        </div>
+
+        <details class="faq-item">
+          <summary>How do I apply for a loan?</summary>
+          <p>
+            Complete the enquiry form on this website. When you
+            submit it, WhatsApp will open with your details ready
+            to send to our team.
+          </p>
+        </details>
+
+        <details class="faq-item">
+          <summary>What types of loans do you offer?</summary>
+          <p>
+            Our listed categories include small business and vendor
+            financing, personal loans, SSB loans and asset finance.
+            Contact our team to discuss availability and eligibility.
+          </p>
+        </details>
+
+        <details class="faq-item">
+          <summary>How much can I apply for?</summary>
+          <p>
+            You can indicate the amount you need in the application
+            form. The amount available will depend on the applicable
+            assessment and approval process.
+          </p>
+        </details>
+
+        <details class="faq-item">
+          <summary>How long does the application process take?</summary>
+          <p>
+            Processing times depend on the information provided
+            and the company's review process. Contact our team
+            for an update on your enquiry.
+          </p>
+        </details>
+
+        <details class="faq-item">
+          <summary>Do I need collateral?</summary>
+          <p>
+            Requirements depend on the financing product and
+            assessment. Please confirm the applicable requirements
+            with our team before applying.
+          </p>
+        </details>
+
+        <details class="faq-item">
+          <summary>How can I contact Charisma Bridge Capital?</summary>
+          <p>
+            Contact us on WhatsApp at
+            <a href="https://wa.me/263774936425" target="_blank" rel="noopener noreferrer">
+              +263 77 493 6425
+            </a>.
+          </p>
+        </details>
+
+      </div>
+    </section>
+
+    <!-- Application Section -->
+    <section id="apply" class="section bg-navy">
+
+      <div class="container apply-wrapper">
+
+        <div class="apply-info">
+
+          <span class="eyebrow">Start Your Enquiry</span>
+
+          <h2>Let's Talk About Your Financing Needs</h2>
+
+          <p>
+            Complete the form and continue to WhatsApp.
+            Our team can then discuss your enquiry and explain
+            the next steps.
+          </p>
+
+          <div class="office-box">
+
+            <h4>Charisma Bridge Capital</h4>
+
+            <p>
+              <strong>Office:</strong>
+              Clyde Shopping Centre, Harare
+            </p>
+
+            <p>
+              <strong>WhatsApp:</strong>
+              <a
+                href="https://wa.me/263774936425"
+                class="contact-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                +263 77 493 6425
+              </a>
+            </p>
+
+            <p>
+              <strong>Enquiries:</strong>
+              Contact our team through WhatsApp.
+            </p>
+
+          </div>
+
+        </div>
+
+        <!-- Application Form -->
+        <form class="loan-form" id="loanForm">
+
+          <h3>Loan Enquiry Form</h3>
+
+          <div class="form-group">
+            <label for="fullName">Full Name *</label>
+            <input
+              type="text"
+              id="fullName"
+              name="fullName"
+              placeholder="Enter your full name"
+              autocomplete="name"
+              required
+            >
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone Number *</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="e.g. +263 77 123 4567"
+              autocomplete="tel"
+              required
+            >
+          </div>
+
+          <div class="form-group">
+            <label for="loanType">Loan Type *</label>
+
+            <select id="loanType" name="loanType" required>
+              <option value="">Select a loan type</option>
+
+              <option value="Fruits & Vegetables Loan">
+                Fruits &amp; Vegetables Loan
+              </option>
+
+              <option value="Clothing & Textiles (Mabhero) Loan">
+                Clothing &amp; Textiles (Mabhero) Loan
+              </option>
+
+              <option value="Traditional Grains Loan">
+                Traditional Grains Loan
+              </option>
+
+              <option value="Baking Business Loan">
+                Baking Business Loan
+              </option>
+
+              <option value="Canteen Business Loan">
+                Canteen Business Loan
+              </option>
+
+              <option value="Cosmetics Business Loan">
+                Cosmetics Business Loan
+              </option>
+
+              <option value="Personal Loan">
+                Personal Loan
+              </option>
+
+              <option value="SSB Loan">
+                SSB Loan
+              </option>
+
+              <option value="Asset Finance">
+                Asset Finance
+              </option>
+
+              <option value="Other">
+                Other
+              </option>
+
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="amount">Amount Needed (USD) *</label>
+            <input
+              type="number"
+              id="amount"
+              name="amount"
+              placeholder="Enter amount in USD"
+              min="1"
+              step="1"
+              required
+            >
+          </div>
+
+          <!-- Customer Location -->
+          <div class="form-group">
+
+            <label for="location">Your Location</label>
+
+            <input
+              type="text"
+              id="location"
+              name="location"
+              placeholder="e.g. Mbare, Harare"
+              autocomplete="address-level2"
+            >
+
+            <button
+              type="button"
+              id="useCurrentLocation"
+              class="btn btn-primary btn-block"
+              style="margin-top: 10px;"
+            >
+              Use My Current Location
+            </button>
+
+            <p
+              id="locationStatus"
+              class="form-note"
+              aria-live="polite"
+            >
+              You can enter your location manually or allow GPS access.
+            </p>
+
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block">
+            Submit Enquiry via WhatsApp &rarr;
+          </button>
+
+          <p class="form-note">
+            Your location is only accessed if you choose to allow GPS
+            permission. Submitting this form opens WhatsApp with your
+            enquiry details. You will need to send the message to
+            complete your enquiry.
+          </p>
+
+        </form>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+
+    <div class="container footer-content">
+
+      <div>
+        <p>
+          &copy; <span id="currentYear">2026</span>
+          Charisma Bridge Capital. All rights reserved.
+        </p>
+        <p>Fast Loans, Real People.</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#loans">Loan Types</a>
+        <a href="#faq">FAQ</a>
+        <a href="#apply">Apply</a>
+      </div>
+
+    </div>
+
+  </footer>
+
+  <!-- Floating WhatsApp Button -->
+  <a
+    href="https://wa.me/263774936425?text=Hello%20Charisma%20Bridge%20Capital%2C%20I%20would%20like%20to%20make%20an%20enquiry."
+    class="floating-wa"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Contact Charisma Bridge Capital on WhatsApp"
+  >
+    WhatsApp Us
+  </a>
+
+  <!-- JavaScript -->
+  <script src="js/main.js" defer></script>
+
+</body>
+</html>
